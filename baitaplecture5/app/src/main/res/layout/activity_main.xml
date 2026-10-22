@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <EditText android:id="@+id/edtHoTen" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Họ và tên" android:inputType="textPersonName" />
+    <EditText android:id="@+id/edtEmail" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Email" android:inputType="textEmailAddress" android:layout_marginTop="10dp"/>
+    <EditText android:id="@+id/edtSdt" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Số điện thoại" android:inputType="phone" android:layout_marginTop="10dp"/>
+    <EditText android:id="@+id/edtMsv" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Mã sinh viên" android:layout_marginTop="10dp"/>
+    <EditText android:id="@+id/edtLop" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Lớp" android:layout_marginTop="10dp"/>
+
+    <Button android:id="@+id/btnDangKy" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Đăng ký" android:layout_marginTop="20dp" />
+    <Button android:id="@+id/btnChuyenTrang" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Chuyển sang Chi tiết (Không truyền data)" android:layout_marginTop="10dp" />
+</LinearLayout>
